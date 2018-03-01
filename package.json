@@ -1,0 +1,15 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Firebase Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "reload -b --port 8009"
+  },
+  "author": "Brian Sutachan",
+  "license": "ISC",
+  "devDependencies": {
+    "reload": "^2.2.2"
+  }
+}

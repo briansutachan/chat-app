@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  textarea:focus, input:focus{
+    outline: none;
+  }
+  
+
+.google-icon{
+    background: url("../images/google-icon.png") 0 0 no-repeat;
+    background-size: 60px 60px;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+
+}
+
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+   
+  }
+  
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ion-social-snapchat {
+    font-size: 150px;
+    color: #548687;
+    animation: colors 10s ease alternate-reverse infinite;
+  }
+
+  @keyframes colors {
+      0%{
+          color:#791E94;
+      }
+
+      25%{
+
+        color: #41D3BD;
+      }
+
+      50%{
+          color:#5A9367;
+      }
+
+      75%{
+         color:#D81159;
+
+      }
+
+      100%{
+
+        color: #353866;
+      }
+  }
+  
+  .btn-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    
+  }
+  
+  .btn {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 1rem;
+  }
+  
+  .accent-color-1 {
+    background-color: #C5E99B;
+  }
+  
+  .accent-color-2 {
+    background-color: #56445D;
+  }
+  
+  .accent-color-3 {
+    color: #548687;
+  }
+  
+  .inputs-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 300px;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .input-title {
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .input-wrapper {
+    flex: 2;
+    display: flex;
+  }
+  
+  .input {
+    flex-grow: 1;
+    font-size: 18px;
+    padding: 10px 0px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid  #000;
+  }
+  
+  .input:focus{
+    border-bottom: 2px solid  #548687;
+  }
