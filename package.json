@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "reload -b --port 8009"
+    "start": "reload -b --port 8008"
   },
   "author": "Brian Sutachan",
   "license": "ISC",
